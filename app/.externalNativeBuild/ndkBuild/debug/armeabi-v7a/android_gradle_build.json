@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "/Users/huzedong/Desktop/MyApplication/app/src/main/jni/Android.mk",
+    "/Users/huzedong/Desktop/MyApplication/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/huzedong/Documents/android-sdk-macosx/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/huzedong/Desktop/MyApplication/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/huzedong/Desktop/MyApplication/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/lib clean"
+  ],
+  "libraries": {
+    "ffmpeg-debug-armeabi-v7a": {
+      "buildCommand": "/Users/huzedong/Documents/android-sdk-macosx/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/huzedong/Desktop/MyApplication/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/huzedong/Desktop/MyApplication/app/src/main/jni/Application.mk APP_ABI\u003darmeabi-v7a NDK_ALL_ABIS\u003darmeabi-v7a NDK_DEBUG\u003d1 APP_PLATFORM\u003dandroid-26 NDK_OUT\u003d/Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/obj NDK_LIBS_OUT\u003d/Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/lib /Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libffmpeg.so",
+      "toolchain": "toolchain-armeabi-v7a",
+      "abi": "armeabi-v7a",
+      "artifactName": "ffmpeg",
+      "files": [
+        {
+          "src": "/Users/huzedong/Desktop/MyApplication/app/src/main/jni/ffmpeg.cpp",
+          "flags": "-target armv7-none-linux-androideabi26 -fdata-sections -ffunction-sections -fstack-protector-strong -funwind-tables -no-canonical-prefixes --sysroot /Users/huzedong/Documents/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -g -Wno-invalid-command-line-argument -Wno-unused-command-line-argument -fno-addrsig -fno-exceptions -fno-rtti -fpic -mfpu\u003dvfpv3-d16 -march\u003darmv7-a -mthumb -O0 -UNDEBUG -fno-limit-debug-info -mfpu\u003dneon -Iprebuilt/includes/armeabi-v7a -I/Users/huzedong/Documents/android-sdk-macosx/ndk-bundle/sources/cxx-stl/system/include -I/Users/huzedong/Desktop/MyApplication/app/src/main/jni -DANDROID -Wa,--noexecstack -Wformat -Werror\u003dformat-security"
+        }
+      ],
+      "output": "/Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/obj/local/armeabi-v7a/libffmpeg.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi-v7a": {
+      "cppCompilerExecutable": "/Users/huzedong/Documents/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

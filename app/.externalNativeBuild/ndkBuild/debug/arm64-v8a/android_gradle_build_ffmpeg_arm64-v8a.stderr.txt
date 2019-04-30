@@ -1,0 +1,5 @@
+/Users/huzedong/Desktop/MyApplication/app/src/main/jni/ffmpeg.cpp:8:10: fatal error: 'libavcodec/avcodec.h' file not found
+#include "libavcodec/avcodec.h"
+         ^~~~~~~~~~~~~~~~~~~~~~
+1 error generated.
+make: *** [/Users/huzedong/Desktop/MyApplication/app/build/intermediates/ndkBuild/debug/obj/local/arm64-v8a/objs-debug/ffmpeg/ffmpeg.o] Error 1
