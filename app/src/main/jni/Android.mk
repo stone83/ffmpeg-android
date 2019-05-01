@@ -27,6 +27,19 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := swscale
 LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libswscale.so
 include $(PREBUILT_SHARED_LIBRARY)
+
+#LOCAL_MODULE := ijkffmpeg
+#LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libijkffmpeg.so
+#include $(PREBUILT_SHARED_LIBRARY)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := ijkplayer
+#LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libijkplayer.so
+#include $(PREBUILT_SHARED_LIBRARY)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE := ijksdl
+#LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libijksdl.so
+#include $(PREBUILT_SHARED_LIBRARY)
+
 # Program
 include $(CLEAR_VARS)
 LOCAL_MODULE := ffmpeg

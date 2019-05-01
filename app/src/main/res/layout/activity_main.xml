@@ -18,6 +18,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <tv.danmaku.ijk.media.widget.media.IjkVideoView
+        android:id="@+id/Ijk_VideoView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </tv.danmaku.ijk.media.widget.media.IjkVideoView>
+
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/nav_view"
         android:layout_width="0dp"

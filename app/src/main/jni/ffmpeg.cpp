@@ -19,7 +19,8 @@ JNIEXPORT jstring JNICALL Java_com_example_myapplication_NDKHelper_initndkhelper
 //    //LOGE("%s", info);
 //    return (*env)->NewStringUTF(env, info);
       avcodec_version();
-//      avformat_version();
+      avformat_version();
+
 
       return env->NewStringUTF("ddddd");
 }
