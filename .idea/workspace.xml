@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cda4e30d-7535-4eeb-9b84-d3609ad9e407" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_1_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_asynclayoutinflater_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_collections_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_2_0_0_alpha5_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_2_0_0_alpha5_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_coordinatorlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cursoradapter_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customview_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_documentfile_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_drawerlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_interpolator_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_loader_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_localbroadcastmanager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_print_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_slidingpanelayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_28_0_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_swiperefreshlayout_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_3_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_monitor_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_1_0_2_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_versionedparcelable_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_viewpager_28_0_0_aar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_findbugs_jsr305_2_0_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_javawriter_2_1_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_inject_javax_inject_1_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_13_beta_2_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__net_sf_kxml_kxml2_2_3_0_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_integration_1_3_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_library_1_3_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_ffmpeg_arm64-v8a.command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_ffmpeg_arm64-v8a.command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_ffmpeg_arm64-v8a.stderr.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_ffmpeg_arm64-v8a.stderr.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_ffmpeg_arm64-v8a.stdout.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_ffmpeg_arm64-v8a.stdout.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/arm64-v8a/ndkBuild_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/android_gradle_build_mini.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_command.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" beforeDir="false" afterPath="$PROJECT_DIR$/app/.externalNativeBuild/ndkBuild/debug/armeabi-v7a/ndkBuild_build_output.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/Android.mk" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/Android.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/ffmpeg.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/ffmpeg.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/ac3_parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/ac3_parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/adts_parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/adts_parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/avcodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/avcodec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/avdct.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/avdct.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/avfft.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/avfft.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/d3d11va.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/d3d11va.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/dirac.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/dirac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/dv_profile.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/dv_profile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/dxva2.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/dxva2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/jni.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/jni.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/mediacodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/mediacodec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/qsv.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/qsv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/vaapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/vaapi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/vdpau.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/vdpau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/videotoolbox.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/videotoolbox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/vorbis_parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/vorbis_parser.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavcodec/xvmc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavcodec/xvmc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavdevice/avdevice.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavdevice/avdevice.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavdevice/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavdevice/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavfilter/avfilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavfilter/avfilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavfilter/buffersink.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavfilter/buffersink.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavfilter/buffersrc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavfilter/buffersrc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavfilter/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavfilter/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavformat/avformat.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavformat/avformat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavformat/avio.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavformat/avio.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavformat/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavformat/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavresample/avresample.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavresample/avresample.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavresample/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavresample/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/adler32.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/adler32.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/aes.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/aes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/aes_ctr.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/aes_ctr.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/attributes.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/attributes.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/audio_fifo.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/audio_fifo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/avassert.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/avassert.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/avconfig.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/avconfig.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/avstring.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/avstring.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/avutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/avutil.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/base64.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/base64.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/blowfish.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/blowfish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/bprint.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/bprint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/bswap.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/bswap.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/buffer.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/buffer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/camellia.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/camellia.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/cast5.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/cast5.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/channel_layout.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/channel_layout.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/common.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/common.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/cpu.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/cpu.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/crc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/crc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/des.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/des.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/dict.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/dict.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/display.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/display.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/downmix_info.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/downmix_info.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/encryption_info.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/encryption_info.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/error.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/error.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/eval.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/eval.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/ffversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/ffversion.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/fifo.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/fifo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/file.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/file.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/frame.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/frame.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hmac.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hmac.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_cuda.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_cuda.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_d3d11va.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_d3d11va.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_drm.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_drm.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_dxva2.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_dxva2.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_mediacodec.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_mediacodec.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_qsv.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_qsv.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_vaapi.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_vaapi.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_vdpau.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_vdpau.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/hwcontext_videotoolbox.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/hwcontext_videotoolbox.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/imgutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/imgutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/intfloat.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/intfloat.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/intreadwrite.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/intreadwrite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/lfg.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/lfg.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/log.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/log.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/lzo.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/lzo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/macros.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/macros.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/mastering_display_metadata.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/mastering_display_metadata.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/mathematics.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/mathematics.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/md5.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/md5.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/mem.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/mem.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/motion_vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/motion_vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/murmur3.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/murmur3.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/opt.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/opt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/parseutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/parseutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/pixdesc.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/pixdesc.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/pixelutils.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/pixelutils.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/pixfmt.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/pixfmt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/random_seed.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/random_seed.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/rational.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/rational.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/rc4.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/rc4.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/replaygain.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/replaygain.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/ripemd.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/ripemd.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/samplefmt.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/samplefmt.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/sha.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/sha.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/sha512.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/sha512.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/spherical.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/spherical.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/stereo3d.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/stereo3d.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/tea.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/tea.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/threadmessage.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/threadmessage.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/time.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/time.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/timecode.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/timecode.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/timestamp.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/timestamp.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/tree.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/tree.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/twofish.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/twofish.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libavutil/xtea.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libavutil/xtea.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libswresample/swresample.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libswresample/swresample.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libswresample/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libswresample/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libswscale/swscale.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libswscale/swscale.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/jni/prebuilt/includes/arm64-v8a/libswscale/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/jni/libswscale/version.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/arm64-v8a/libffmpeg.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/arm64-v8a/libffmpeg.so" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/libs/armeabi-v7a/libffmpeg.so" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/libs/armeabi-v7a/libffmpeg.so" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/com_example_myapplication_NDKHelper.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/ffmpeg.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#39#87#0" expanded="true" />
+                <element signature="e#123#154#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/jni/Application.mk">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/src/main/jni/ffmpeg.cpp" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/libavformat/avformat.h" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/libavformat/avio.h" />
+        <option value="$PROJECT_DIR$/app/src/main/jni/Android.mk" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
+              <item name="prebuilt" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="jni" type="462c0819:PsiDirectoryNode" />
+              <item name="prebuilt" type="462c0819:PsiDirectoryNode" />
+              <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ffmpeg-android" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ffmpeg-android" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="android.sdk.path" value="$USER_HOME$/Documents/android-sdk-macosx" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cda4e30d-7535-4eeb-9b84-d3609ad9e407" name="Default Changelist" comment="" />
+      <created>1556639016939</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1556639016939</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="807" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Captures" order="0" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.3297568" />
+      <window_info id="Structure" order="2" side_tool="true" />
+      <window_info id="Build Variants" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="Designer" order="5" />
+      <window_info id="Resources Explorer" order="6" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info id="Favorites" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Find" weight="0.32947975" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Version Control" order="0" />
+      <window_info anchor="bottom" id="Logcat" order="1" />
+      <window_info anchor="bottom" id="TODO" order="2" />
+      <window_info anchor="bottom" id="sbt-shell-toolwindow" order="3" weight="0.32803467" />
+      <window_info anchor="bottom" id="Android Profiler" order="4" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="5" weight="0.32658958" />
+      <window_info anchor="bottom" id="Event Log" order="6" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32658958" />
+      <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Gradle" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="sbt" order="5" />
+    </layout>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/com_example_myapplication_NDKHelper.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/Application.mk">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/libavformat/version.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="23" column="3" lean-forward="true" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/libavformat/avio.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="32" column="26" selection-start-line="32" selection-start-column="26" selection-end-line="32" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/libavformat/avformat.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="322" column="17" selection-start-line="322" selection-start-column="17" selection-end-line="322" selection-end-column="17" />
+          <folding>
+            <element signature="e#116461#117043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/ffmpeg.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#39#87#0" expanded="true" />
+            <element signature="e#123#154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/jni/Android.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

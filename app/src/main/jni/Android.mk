@@ -1,6 +1,8 @@
 LOCAL_PATH := $(call my-dir)
 # FFmpeg library
 include $(CLEAR_VARS)
+#PROJECT_PATH = $(LOCAL_PATH)/..
+#MY_HEADER_PATH += $(PROJECT_PATH)
 LOCAL_MODULE := avcodec
 LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libavcodec.so
 #LOCAL_SRC_FILES := $(so_path)/libavcodec.so
@@ -29,7 +31,7 @@ include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_MODULE := ffmpeg
 LOCAL_SRC_FILES := ffmpeg.cpp
-LOCAL_C_INCLUDES += prebuilt/includes/$(TARGET_ARCH_ABI)
+LOCAL_C_INCLUDES += $(TARGET_ARCH_ABI)
 LOCAL_LDLIBS := -llog -lz
 LOCAL_SHARED_LIBRARIES := avcodec avfilter avformat avutil swresample swscale
 include $(BUILD_SHARED_LIBRARY)
