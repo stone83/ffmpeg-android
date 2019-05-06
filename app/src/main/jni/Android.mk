@@ -8,12 +8,20 @@ LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libavcodec.so
 #LOCAL_SRC_FILES := $(so_path)/libavcodec.so
 include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
+LOCAL_MODULE := avdevice
+LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libavdevice.so
+include $(PREBUILT_SHARED_LIBRARY)
+include $(CLEAR_VARS)
 LOCAL_MODULE := avfilter
 LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libavfilter.so
 include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_MODULE := avformat
 LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libavformat.so
+include $(PREBUILT_SHARED_LIBRARY)
+include $(CLEAR_VARS)
+LOCAL_MODULE := avresample
+LOCAL_SRC_FILES := prebuilt/libs/$(TARGET_ARCH_ABI)/libavresample.so
 include $(PREBUILT_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 LOCAL_MODULE := avutil

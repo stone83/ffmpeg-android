@@ -42,14 +42,14 @@ public class MainActivity extends AppCompatActivity {
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
         NDKHelper.initndkhelper();
-        initView();
+//        initView();
 
         /**
          * 普通播放：
          */
 //        Ijk_VideoView.setAspectRatio(IRenderView.AR_ASPECT_FIT_PARENT);
-        Ijk_VideoView.setVideoURI(Uri.parse("http://stream1.grtn.cn/tvs2/sd/live.m3u8?_ts&time=1518428696629"));
-        Ijk_VideoView.start();
+//        Ijk_VideoView.setVideoURI(Uri.parse("http://stream1.grtn.cn/tvs2/sd/live.m3u8?_ts&time=1518428696629"));
+//        Ijk_VideoView.start();
 
     }
     private void initView() {
