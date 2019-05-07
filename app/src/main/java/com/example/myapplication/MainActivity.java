@@ -45,18 +45,15 @@ public class MainActivity extends AppCompatActivity {
         String str = NDKHelper.initndkhelper();
         Log.e("huzedong", "..........ths is java log : " + str + ".........");
         initView();
-
+    }
+    private void initView() {
+        Ijk_VideoView = (IjkVideoView) findViewById(R.id.Ijk_VideoView);
         /**
          * 普通播放：
          */
         Ijk_VideoView.setAspectRatio(IRenderView.AR_ASPECT_FIT_PARENT);
-        Ijk_VideoView.setVideoURI(Uri.parse("http://devimages.apple.com/iphone/samples/bipbop/gear1/prog_index.m3u8"));
+        Ijk_VideoView.setVideoURI(Uri.parse("http://dlhls.cdn.zhanqi.tv/zqlive/7032_0s2qn.m3u8"));
         Ijk_VideoView.start();
-
-
-    }
-    private void initView() {
-        Ijk_VideoView = (IjkVideoView) findViewById(R.id.Ijk_VideoView);
     }
 
 }
