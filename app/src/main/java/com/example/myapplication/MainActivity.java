@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 import tv.danmaku.ijk.media.example.widget.media.*;
@@ -41,7 +42,8 @@ public class MainActivity extends AppCompatActivity {
         BottomNavigationView navView = findViewById(R.id.nav_view);
         mTextMessage = findViewById(R.id.message);
         navView.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
-        NDKHelper.initndkhelper();
+        String str = NDKHelper.initndkhelper();
+        Log.e("huzedong", "..........ths is java log : " + str + ".........");
         initView();
 
         /**

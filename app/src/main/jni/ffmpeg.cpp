@@ -4,6 +4,12 @@
 #include <com_example_myapplication_NDKHelper.h>
 
 #include <stdio.h>
+#include <android/log.h>
+#include <android/bitmap.h>
+
+#define LOG_TAG "huzedong"
+#define LOGI(...) __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
+#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__)
 
 extern "C" {
 
@@ -21,7 +27,7 @@ JNIEXPORT jstring JNICALL Java_com_example_myapplication_NDKHelper_initndkhelper
       avcodec_version();
       avformat_version();
 
-
+      LOGE(".............this is native log.............");
       return env->NewStringUTF("ddddd");
 }
 }
