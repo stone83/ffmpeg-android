@@ -264,7 +264,11 @@ public class IjkVideoView extends FrameLayout implements MediaController.MediaPl
     public void setVideoURI(Uri uri) {
         setVideoURI(uri, null);
     }
-
+    public void setAspectRatio(int aspectRatio) {
+        if (null != mRenderView){
+            mRenderView.setAspectRatio(aspectRatio);
+        }
+    }
     /**
      * Sets video URI using specific headers.
      *

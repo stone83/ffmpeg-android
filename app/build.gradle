@@ -4,21 +4,52 @@ android {
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.myapplication"
-        minSdkVersion 26
+        minSdkVersion 23
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
         ndk {
             abiFilters 'armeabi-v7a','arm64-v8a'
+            ldLibs "avcodec","avfilter","avformat","avutil","swresample","swscale","avresample"
         }
     }
+    sourceSets {
+        main{
+//            jni.srcDirs = []//设置禁止gradle生成Android.mk
+            jniLibs.srcDirs=['libs']
+        }
+    }
+    // 解决资源重复问题
+//    packagingOptions {
+//        exclude 'lib/arm64-v8a/libswscale.so'
+//        exclude 'lib/arm64-v8a/libavcodec.so'
+//        exclude 'lib/arm64-v8a/libavutil.so'
+//        exclude 'lib/arm64-v8a/libavdevice.so'
+//        exclude 'lib/arm64-v8a/libavfilter.so'
+//        exclude 'lib/arm64-v8a/libavresample.so'
+//        exclude 'lib/arm64-v8a/libffmpeg.so'
+//        exclude 'lib/arm64-v8a/libswresample.so'
+//        exclude 'lib/arm64-v8a/libavformat.so'
+//
+//        exclude 'lib/armeabi-v7a/libswscale.so'
+//        exclude 'lib/armeabi-v7a/libavcodec.so'
+//        exclude 'lib/armeabi-v7a/libavutil.so'
+//        exclude 'lib/armeabi-v7a/libavdevice.so'
+//        exclude 'lib/armeabi-v7a/libavfilter.so'
+//        exclude 'lib/armeabi-v7a/libavresample.so'
+//        exclude 'lib/armeabi-v7a/libffmpeg.so'
+//        exclude 'lib/armeabi-v7a/libswresample.so'
+//        exclude 'lib/armeabi-v7a/libavformat.so'
+//    }
+
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     externalNativeBuild{
         ndkBuild{
             path "src/main/jni/Android.mk"
@@ -37,16 +68,16 @@ dependencies {
 
 
     // required, enough for most devices.
-            compile 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
-    compile 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-java:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv7a:0.8.8'
 
     // Other ABIs: optional
-    compile 'tv.danmaku.ijk.media:ijkplayer-armv5:0.8.8'
-    compile 'tv.danmaku.ijk.media:ijkplayer-arm64:0.8.8'
-    compile 'tv.danmaku.ijk.media:ijkplayer-x86:0.8.8'
-    compile 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-armv5:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-arm64:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-x86:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-x86_64:0.8.8'
 
     //ExoPlayer as IMediaPlayer: optional, experimental
-    compile 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.8'
+    implementation 'tv.danmaku.ijk.media:ijkplayer-exo:0.8.8'
 
 }

@@ -7,9 +7,9 @@
 
 extern "C" {
 
-#include "libavcodec/avcodec.h"
-#include "libavformat/avformat.h"
-#include "libavfilter/avfilter.h"
+#include "prebuilt/includes/arm64-v8a/libavcodec/avcodec.h"
+#include "prebuilt/includes/arm64-v8a/libavformat/avformat.h"
+#include "prebuilt/includes/arm64-v8a/libavfilter/avfilter.h"
 
 JNIEXPORT jstring JNICALL Java_com_example_myapplication_NDKHelper_initndkhelper(JNIEnv *env, jclass clazz)
 {
